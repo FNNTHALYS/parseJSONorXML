@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    color: whitesmoke;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    align-items: center;
+    align-content: column;
+    color: whitesmoke;
+  }
+  
+  input[type="file"] {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 1rem;
+  }
+  
+  button[type="button"] {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #ff8800;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .output {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    color: whitesmoke;
+  }
+
+  body {
+    background-color: #410249;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
